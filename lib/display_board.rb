@@ -59,11 +59,12 @@ def display_board(board)
     puts ""
     print "-----------"
     puts""
-    print " " + board[3] + " | " + board[4] + " | " + board[5]
+    print " " + board[3] + " | " + board[4] + " | " + board[5] + 
+     
     puts ""
     print"-----------"
     puts ""
-    print " " + board[6] + " | " + board[7] + " | " + board[8]
+    print " " + board[6] + " | " + board[7] + " | " + board[8] + " "
 end
 display_board(board)
 
