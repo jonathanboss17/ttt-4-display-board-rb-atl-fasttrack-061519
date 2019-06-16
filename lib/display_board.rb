@@ -55,7 +55,7 @@ board = ["X","O","X","O","X","O","X","O","X"]
 # display_board(board)
 
 def display_board(board)
-    print " " + board[0] + " | " + board[1] + " | " + board[2]
+    print " " + board[0] + " | " + board[1] + " | " + board[2] + " "
     puts ""
     print "-----------"
     puts""
