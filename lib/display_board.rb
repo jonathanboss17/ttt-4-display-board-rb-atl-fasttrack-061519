@@ -57,17 +57,17 @@ board = ["X","O","X","O","X","O","X","O","X"]
 def display_board(board)
     print " " + board[0] + " | " + board[1] + " | " + board[2] + " "
     puts ""
-    print "-----------"
-    puts ""
+    puts "-----------"
     
     print " " + board[3] + " | " + board[4] + " | " + board[5] + 
      
     puts ""
-    print"-----------"
-    puts ""
+    puts"-----------"
+
     
     print " " + board[6] + " | " + board[7] + " | " + board[8] + " "
 end
+
 display_board(board)
 
 # Gets Method --> how you ask the user for X or O .. and also for placement
