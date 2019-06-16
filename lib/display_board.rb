@@ -4,56 +4,57 @@ require 'pry'
 
 board = ["X","O","X","O","X","O","X","O","X"]
 
-def display_board(board)
+# def display_board(board)
   
-    row = ["   ", "|", "   ", "|", "   "]
+#     row = ["   ", "|", "   ", "|", "   "]
     
-    count = 0
-    i = 0
-    j = 0
+#     count = 0
+#     i = 0
+#     j = 0
     
-    loop do
+#     loop do
       
-      if(row[i] == "   ")
+#       if(row[i] == "   ")
         
-        row[i] = " " + board[j] + " "
+#         row[i] = " " + board[j] + " "
         
-        print row[i]
-        j+=1
+#         print row[i]
+#         j+=1
         
-      else
+#       else
         
-        print row[i]
+#         print row[i]
         
-      end
+#       end
     
-      i+=1
+#       i+=1
       
-      if (i > row.length - 1)
+#       if (i > row.length - 1)
         
-        count+=1 
+#         count+=1 
         
         
-        if(count < 2)
-          puts ""
-          print "-----------"
-          puts ""
+#         if(count < 2)
+#           puts ""
+#           print "-----------"
+#           puts ""
         
-          display_board(board[j, board.length])
+#           display_board(board[j, board.length])
           
-        else
-          break
-        end
+#         else
+#           break
+#         end
         
-      end 
+#       end 
       
-    end
+#     end
 
     
-end
+# end
 
-display_board(board)
+# display_board(board)
 
+def display_board(board)
 
 # Gets Method --> how you ask the user for X or O .. and also for placement
 # def get_username
