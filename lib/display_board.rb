@@ -55,6 +55,8 @@ board = ["X","O","X","O","X","O","X","O","X"]
 # display_board(board)
 
 def display_board(board)
+    puts " " + board[0] + " | " + board[1] + " | " + board[2]
+end
 
 # Gets Method --> how you ask the user for X or O .. and also for placement
 # def get_username
